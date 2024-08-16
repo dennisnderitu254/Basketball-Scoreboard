@@ -1,0 +1,24 @@
+{
+  "name": "basketball-scoreboard-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennisnderitu254/Basketball-Scoreboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennisnderitu254/Basketball-Scoreboard/issues"
+  },
+  "homepage": "https://github.com/dennisnderitu254/Basketball-Scoreboard#readme",
+  "devDependencies": {
+    "vite": "^5.4.1"
+  }
+}

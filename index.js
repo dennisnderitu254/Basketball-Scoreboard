@@ -31,15 +31,16 @@ function incrementScore(team) {
     updateScores();
 }
 
-function addFoul(team) {
-    if (team === 'home') {
-        homeFouls++;
-        document.getElementById("home-fouls").textContent = homeFouls;
-    } else {
-        guestFouls++;
-        document.getElementById("guest-fouls").textContent = guestFouls;
-    }
+function addHomeFoul() {
+    document.getElementById("home-fouls").textContent = homeFouls; 
+    homeFouls++;
 }
+
+function addGuestFoul() {
+    document.getElementById("guest-fouls").textContent = guestFouls;
+    guestFouls++;
+}
+
 
 function newGame() {
     homeScore = 0;
@@ -72,7 +73,7 @@ function formatTime(seconds) {
 }
 
 function startTimer() {
-    if (timerInterval) clearInterval(timeInterval);
+    if (timerInterval) clearInterval(timerInterval);
     timerInterval = setInterval(() => {
         if (timer > 0) {
             timer--;
