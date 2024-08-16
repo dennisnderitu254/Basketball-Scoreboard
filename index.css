@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.team {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    width: 200px;
+}
+
+.team.leader {
+    border-color: gold;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
